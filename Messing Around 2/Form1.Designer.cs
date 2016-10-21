@@ -28,10 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.btnStart = new System.Windows.Forms.Button();
             this.lblNumber = new System.Windows.Forms.Label();
-            this.myTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // btnStart
@@ -53,10 +51,6 @@
             this.lblNumber.TabIndex = 1;
             this.lblNumber.Text = "-";
             // 
-            // myTimer
-            // 
-            this.myTimer.Tick += new System.EventHandler(this.myTimer_Tick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -76,7 +70,6 @@
 
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Label lblNumber;
-        private System.Windows.Forms.Timer myTimer;
     }
 }
 
