@@ -36,11 +36,11 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(197, 226);
+            this.btnStart.Location = new System.Drawing.Point(167, 226);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.Size = new System.Drawing.Size(105, 23);
             this.btnStart.TabIndex = 0;
-            this.btnStart.Text = "Hajime";
+            this.btnStart.Text = "Start countdown";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
